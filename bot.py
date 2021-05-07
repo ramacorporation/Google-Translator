@@ -16,9 +16,9 @@ from google_trans_new import google_translator
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-TOKEN = os.environ.get("TOKEN","")
-APP_ID =int(os.environ.get("APP_ID",12345))
-API_HASH =os.environ.get("API_HASH","")
+TOKEN = os.environ.get("TOKEN","1721526338:AAEqf3-MMZN7jZworK5q2dxUNQJgKPqWva8")
+APP_ID =int(os.environ.get("APP_ID",2383784))
+API_HASH =os.environ.get("API_HASH","b45d5731ba5e5b15e38fcee3386c50c7")
 app = Client(
         "ggt",
         bot_token=TOKEN,
