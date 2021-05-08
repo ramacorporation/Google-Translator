@@ -35,17 +35,7 @@ def start(client, message):
                   
            ]
         ) )
-		from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
- update_channel = "lntechnical"
- user_id = message.from_user.id
- if update_channel :
-  try:
-   client.get_chat_member(update_channel, user_id)
-  except UserNotParticipant:
-   message.reply_text("**__You are not subscribed my channel__** ",parse_mode="markdown", reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([ [ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ]
-   ]))
-   return
 	
 @app.on_message(filters.text & filters.private )
 def echo(client, message):
