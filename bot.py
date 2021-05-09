@@ -48,7 +48,6 @@ def echo(client, message):
    message.reply_text("**__You are not subscribed my channel__** ",parse_mode="markdown", reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([ [ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ]
    ]))
    return
- 
  keybord = InlineKeyboardMarkup( [
         [
             InlineKeyboardButton("Hindi", callback_data='hi'),
