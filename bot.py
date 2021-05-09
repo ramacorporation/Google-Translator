@@ -11,6 +11,7 @@ from pyrogram.types import (
 )
 from pyrogram.types import CallbackQuery
 from google_trans_new import google_translator
+from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
 
 import pyrogram
@@ -22,7 +23,7 @@ API_HASH =os.environ.get("API_HASH","b45d5731ba5e5b15e38fcee3386c50c7")
 app = Client(
         "ggt",
         bot_token=TOKEN,
-        api_id=APP_ID,
+        api_id=API_ID,
         api_hash=API_HASH,
     )
     
@@ -31,11 +32,10 @@ def start(client, message):
             message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL" ,url="https://t.me/TG_Free_Bots") ],
-                  
+                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ],
+                 [InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]
            ]
         ) )
-
 	
 @app.on_message(filters.text & filters.private )
 def echo(client, message):
