@@ -72,11 +72,13 @@ def echo(client, message):
         InlineKeyboardButton("Catalan",callback_data = 'ca')
         ],
         [   InlineKeyboardButton("Cebuano", callback_data='ceb'),
-        InlineKeyboardButton("Chichewa", callback_data='ny'),
-        InlineKeyboardButton("Chinese (simplified)",callback_data = 'zh-cn')
+        InlineKeyboardButton("Chichewa", callback_data='ny')
+	],
+        [   InlineKeyboardButton("Chinese (simplified)",callback_data = 'zh-cn')
         ],
-        [   InlineKeyboardButton("Chinese (traditional)", callback_data='zh-tw'),
-        InlineKeyboardButton("Corsican", callback_data='co'),
+        [   InlineKeyboardButton("Chinese (traditional)", callback_data='zh-tw')
+	 ],
+        [   InlineKeyboardButton("Corsican", callback_data='co'),
         InlineKeyboardButton("Croatian",callback_data = 'hr')
         ],
         [   InlineKeyboardButton("Czech", callback_data='cs'),
@@ -133,11 +135,12 @@ def echo(client, message):
         InlineKeyboardButton("Lithuanian",callback_data = 'lt')
         ],
           [   InlineKeyboardButton("Luxembourgish", callback_data='lb'),
-        InlineKeyboardButton("Macedonian", callback_data='mk'),
-        InlineKeyboardButton("Malagasy",callback_data = 'mg')
-        ],
-        [   InlineKeyboardButton("Malay", callback_data='ms'),
-        InlineKeyboardButton("Malayalam", callback_data='ml'),
+        InlineKeyboardButton("Macedonian", callback_data='mk')
+	   ],
+        [   InlineKeyboardButton("Malagasy",callback_data = 'mg'),
+        InlineKeyboardButton("Malay", callback_data='ms')
+	 ],
+        [InlineKeyboardButton("Malayalam", callback_data='ml'),
         InlineKeyboardButton("Maltese",callback_data = 'mt')
         ],
         [   InlineKeyboardButton("Maori", callback_data='mi'),
@@ -146,10 +149,11 @@ def echo(client, message):
         ],
         [   InlineKeyboardButton("Myanmar (burmese)", callback_data='my'),
         InlineKeyboardButton("Nepali", callback_data='ne'),
-        InlineKeyboardButton("Norwegian",callback_data = 'no'),
-        InlineKeyboardButton("Nyanja (Chichewa)",callback_data = 'ny')
-        ],
-        [   InlineKeyboardButton("Odia (Oriya)",callback_data = 'or'),
+        InlineKeyboardButton("Norwegian",callback_data = 'no')
+	 ],
+       [  InlineKeyboardButton("Nyanja (Chichewa)",callback_data = 'ny'),
+        InlineKeyboardButton("Odia (Oriya)",callback_data = 'or'),
+	
         InlineKeyboardButton("Pashto", callback_data='ps'),
         InlineKeyboardButton("Persian", callback_data='fa'),
         InlineKeyboardButton("Polish",callback_data = 'pl')
