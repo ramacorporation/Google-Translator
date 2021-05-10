@@ -140,7 +140,7 @@ def echo(client, message):
         InlineKeyboardButton("Malayalam", callback_data='ml'),
         InlineKeyboardButton("Maltese",callback_data = 'mt')
         ],
-[   InlineKeyboardButton("Maori", callback_data='mi'),
+        [   InlineKeyboardButton("Maori", callback_data='mi'),
         InlineKeyboardButton("Marathi", callback_data='mr'),
         InlineKeyboardButton("Mongolian",callback_data = 'mn')
         ],
@@ -149,8 +149,8 @@ def echo(client, message):
         InlineKeyboardButton("Norwegian",callback_data = 'no'),
         InlineKeyboardButton("Nyanja (Chichewa)",callback_data = 'ny')
         ],
-        InlineKeyboardButton("Odia (Oriya)",callback_data = 'or'),
-        [   InlineKeyboardButton("Pashto", callback_data='ps'),
+        [   InlineKeyboardButton("Odia (Oriya)",callback_data = 'or'),
+        InlineKeyboardButton("Pashto", callback_data='ps'),
         InlineKeyboardButton("Persian", callback_data='fa'),
         InlineKeyboardButton("Polish",callback_data = 'pl')
         ],
@@ -178,26 +178,26 @@ def echo(client, message):
         InlineKeyboardButton("Swahili", callback_data='sw'),
         InlineKeyboardButton("Swedish",callback_data = 'sv')
         ],
-         [   InlineKeyboardButton("Tajik", callback_data='tg'),
+        [   InlineKeyboardButton("Tajik", callback_data='tg'),
         InlineKeyboardButton("Tamil", callback_data='ta'),
         InlineKeyboardButton("Tatar", callback_data='tt'),
         InlineKeyboardButton("Telugu",callback_data = 'te')
         ],
-         [   InlineKeyboardButton("Thai", callback_data='th'),
+        [   InlineKeyboardButton("Thai", callback_data='th'),
         InlineKeyboardButton("Turkish", callback_data='tr'),
         InlineKeyboardButton("Turkmen", callback_data='tk'),
         InlineKeyboardButton("Ukrainian",callback_data = 'uk')
         ],
-         [   InlineKeyboardButton("Urdu", callback_data='ur'),
+        [   InlineKeyboardButton("Urdu", callback_data='ur'),
         InlineKeyboardButton("Uzbek", callback_data='uz'),
         InlineKeyboardButton("Uyghur", callback_data='ug'),
         InlineKeyboardButton("Vietnamese",callback_data = 'vi')
         ],
-            [   InlineKeyboardButton("Welsh", callback_data='cy'),
+        [   InlineKeyboardButton("Welsh", callback_data='cy'),
         InlineKeyboardButton("Xhosa", callback_data='xh'),
         InlineKeyboardButton("Yiddish",callback_data = 'vi')
         ],
-            [   InlineKeyboardButton("Yoruba", callback_data='yo'),
+        [   InlineKeyboardButton("Yoruba", callback_data='yo'),
         InlineKeyboardButton("Zulu", callback_data='zu')
         
         ]
