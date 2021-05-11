@@ -107,15 +107,15 @@ def echo(client, message):
         ],
           [   InlineKeyboardButton("Hungarian", callback_data='hu'),
         InlineKeyboardButton("Icelandic", callback_data='is'),
-        InlineKeyboardButton("Igbo",callback_data = 'ig')
-        ],
-          [   InlineKeyboardButton("Indonesian", callback_data='id'),
-        InlineKeyboardButton("Irish", callback_data='ga'),
-        InlineKeyboardButton("Italian",callback_data = 'it')
-        ],
-          [   InlineKeyboardButton("Japanese", callback_data='ja'),
-        InlineKeyboardButton("Javanese", callback_data='jv'),
-        InlineKeyboardButton("Kannada",callback_data = 'kn')
+        InlineKeyboardButton("Igbo",callback_data = 'ig'),
+        InlineKeyboardButton("Indonesian", callback_data='id')
+	  ],
+        [   InlineKeyboardButton("Irish", callback_data='ga'),
+        InlineKeyboardButton("Italian",callback_data = 'it'),
+        InlineKeyboardButton("Japanese", callback_data='ja'),
+        InlineKeyboardButton("Javanese", callback_data='jv')
+	 ],
+        [InlineKeyboardButton("Kannada",callback_data = 'kn')
         ],
           [   InlineKeyboardButton("Kazakh", callback_data='kk'),
         InlineKeyboardButton("Khmer", callback_data='km'),
