@@ -37,7 +37,7 @@ def start(client, message):
             [
                 [
                     InlineKeyboardButton("CHANNEL" ,url="https://t.me/TG_Free_Bots") ],
-                [   InlineKeyboardButton("All our *Free Bots*" ,url="https://t.me/TG_Free_Bots/3")]
+                [   InlineKeyboardButton("All our FREE BOTS" ,url="https://t.me/TG_Free_Bots/3")]
            ]
         ) )
 	
@@ -49,7 +49,7 @@ def echo(client, message):
   try:
    client.get_chat_member(update_channel, user_id)
   except UserNotParticipant:
-   message.reply_text("**__You are not subscribed my channel__** ",parse_mode="markdown", reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([ [ InlineKeyboardButton("Join our Bot's channel" ,url="https://t.me/TG_Free_Bots") ]
+   message.reply_text("**__Join our Bot's Channel to use ME__** ",parse_mode="markdown", reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([ [ InlineKeyboardButton("Join our Bot's channel" ,url="https://t.me/TG_Free_Bots") ]
    ]))
    return
  
