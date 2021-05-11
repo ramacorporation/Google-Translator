@@ -57,55 +57,51 @@ def echo(client, message):
        
             [   InlineKeyboardButton("Afrikaans", callback_data='af'),
         InlineKeyboardButton("Albanian", callback_data='sq'),
-        InlineKeyboardButton("Amharic",callback_data = 'am')
-        ],
-        [   InlineKeyboardButton("Arabic", callback_data='ar'),
-        InlineKeyboardButton("Armenian", callback_data='hy'),
-        InlineKeyboardButton("Azerbaijani",callback_data = 'az')
-        ],
-        [   InlineKeyboardButton("Basque", callback_data='eu'),
-        InlineKeyboardButton("Belarusian", callback_data='be'),
-        InlineKeyboardButton("Bengali",callback_data = 'bn')
-        ],
-        [   InlineKeyboardButton("Bosnian", callback_data='bs'),
-        InlineKeyboardButton("Bulgarian", callback_data='bg'),
-        InlineKeyboardButton("Catalan",callback_data = 'ca')
-        ],
-        [   InlineKeyboardButton("Cebuano", callback_data='ceb'),
+        InlineKeyboardButton("Amharic",callback_data = 'am'),
+        InlineKeyboardButton("Arabic", callback_data='ar'),
+	],
+	[   InlineKeyboardButton("Armenian", callback_data='hy'),
+        InlineKeyboardButton("Azerbaijani",callback_data = 'az'),
+        InlineKeyboardButton("Basque", callback_data='eu')
+	],
+	[   InlineKeyboardButton("Belarusian", callback_data='be'),
+        InlineKeyboardButton("Bengali",callback_data = 'bn'),
+        InlineKeyboardButton("Bosnian", callback_data='bs')
+	],
+        [    InlineKeyboardButton("Bulgarian", callback_data='bg'),
+        InlineKeyboardButton("Catalan",callback_data = 'ca'),
+        InlineKeyboardButton("Cebuano", callback_data='ceb'),
         InlineKeyboardButton("Chichewa", callback_data='ny')
 	],
-        [   InlineKeyboardButton("Chinese (simplified)",callback_data = 'zh-cn')
-        ],
-        [   InlineKeyboardButton("Chinese (traditional)", callback_data='zh-tw')
-	 ],
+        [   InlineKeyboardButton("Chinese (simplified)",callback_data = 'zh-cn'),
+        InlineKeyboardButton("Chinese (traditional)", callback_data='zh-tw')
+	],
         [   InlineKeyboardButton("Corsican", callback_data='co'),
-        InlineKeyboardButton("Croatian",callback_data = 'hr')
-        ],
-        [   InlineKeyboardButton("Czech", callback_data='cs'),
-        InlineKeyboardButton("Danish", callback_data='da'),
-        InlineKeyboardButton("Dutch",callback_data = 'nl')
-        ],
-        [   InlineKeyboardButton("English", callback_data='en'),
+        InlineKeyboardButton("Croatian",callback_data = 'hr'),
+        InlineKeyboardButton("Czech", callback_data='cs'),
+        InlineKeyboardButton("Danish", callback_data='da')
+	 ],
+        [   InlineKeyboardButton("Dutch",callback_data = 'nl'),
+        InlineKeyboardButton("English", callback_data='en'),
         InlineKeyboardButton("Esperanto", callback_data='eo'),
         InlineKeyboardButton("Estonian",callback_data = 'et')
         ],
         [   InlineKeyboardButton("Filipino", callback_data='tl'),
         InlineKeyboardButton("Finnish", callback_data='fi'),
-        InlineKeyboardButton("French",callback_data = 'fr')
-        ],
-        [   InlineKeyboardButton("Frisian", callback_data='fy'),
-        InlineKeyboardButton("Galician", callback_data='gl'),
-        InlineKeyboardButton("Georgian",callback_data = 'ka')
-        ],
-        [   InlineKeyboardButton("German", callback_data='de'),
-        InlineKeyboardButton("Greek", callback_data='el'),
-        InlineKeyboardButton("Gujarati",callback_data = 'gu')
-        ],
-        [   InlineKeyboardButton("Haitian Creole", callback_data='ht'),
-        InlineKeyboardButton("Hausa", callback_data='ha'),
-        InlineKeyboardButton("Hawaiian",callback_data = 'haw')
-        ],
-        [   InlineKeyboardButton("Hebrew", callback_data='iw'),
+        InlineKeyboardButton("French",callback_data = 'fr'),
+        InlineKeyboardButton("Frisian", callback_data='fy')
+	 ],
+        [   InlineKeyboardButton("Galician", callback_data='gl'),
+        InlineKeyboardButton("Georgian",callback_data = 'ka'),
+        InlineKeyboardButton("German", callback_data='de'),
+        InlineKeyboardButton("Greek", callback_data='el')
+	 ],
+        [   InlineKeyboardButton("Gujarati",callback_data = 'gu')
+        InlineKeyboardButton("Haitian Creole", callback_data='ht'),
+        InlineKeyboardButton("Hausa", callback_data='ha')
+	 ],
+        [InlineKeyboardButton("Hawaiian",callback_data = 'haw')
+        InlineKeyboardButton("Hebrew", callback_data='iw'),
         InlineKeyboardButton("Hindi", callback_data='hi'),
         InlineKeyboardButton("Hmong",callback_data = 'hmn')
         ],
