@@ -100,7 +100,7 @@ def echo(client, message):
         InlineKeyboardButton("Haitian Creole", callback_data='ht'),
         InlineKeyboardButton("Hausa", callback_data='ha')
 	 ],
-        [InlineKeyboardButton("Hawaiian",callback_data = 'haw')
+        [InlineKeyboardButton("Hawaiian",callback_data = 'haw'),
         InlineKeyboardButton("Hebrew", callback_data='iw'),
         InlineKeyboardButton("Hindi", callback_data='hi'),
         InlineKeyboardButton("Hmong",callback_data = 'hmn')
