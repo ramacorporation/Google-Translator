@@ -37,7 +37,7 @@ def start(client, message):
             [
                 [
                     InlineKeyboardButton("CHANNEL" ,url="https://t.me/TG_Free_Bots") ],
-                 
+                [   InlineKeyboardButton("All our *Free Bots*" ,url="https://t.me/TG_Free_Bots/3")]
            ]
         ) )
 	
@@ -96,7 +96,7 @@ def echo(client, message):
         InlineKeyboardButton("German", callback_data='de'),
         InlineKeyboardButton("Greek", callback_data='el')
 	 ],
-        [   InlineKeyboardButton("Gujarati",callback_data = 'gu')
+        [   InlineKeyboardButton("Gujarati",callback_data = 'gu'),
         InlineKeyboardButton("Haitian Creole", callback_data='ht'),
         InlineKeyboardButton("Hausa", callback_data='ha')
 	 ],
