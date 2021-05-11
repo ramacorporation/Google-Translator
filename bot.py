@@ -107,39 +107,38 @@ def echo(client, message):
         ],
           [   InlineKeyboardButton("Hungarian", callback_data='hu'),
         InlineKeyboardButton("Icelandic", callback_data='is'),
-        InlineKeyboardButton("Igbo",callback_data = 'ig'),
-        InlineKeyboardButton("Indonesian", callback_data='id')
-	  ],
-        [   InlineKeyboardButton("Irish", callback_data='ga'),
-        InlineKeyboardButton("Italian",callback_data = 'it'),
-        InlineKeyboardButton("Japanese", callback_data='ja'),
-        InlineKeyboardButton("Javanese", callback_data='jv')
+        InlineKeyboardButton("Igbo",callback_data = 'ig')
+	   ],
+        [   InlineKeyboardButton("Indonesian", callback_data='id'),
+	InlineKeyboardButton("Irish", callback_data='ga'),
+        InlineKeyboardButton("Italian",callback_data = 'it')
 	 ],
-        [InlineKeyboardButton("Kannada",callback_data = 'kn')
-        ],
-          [   InlineKeyboardButton("Kazakh", callback_data='kk'),
-        InlineKeyboardButton("Khmer", callback_data='km'),
+        [   InlineKeyboardButton("Japanese", callback_data='ja'),
+	InlineKeyboardButton("Javanese", callback_data='jv'),
+	InlineKeyboardButton("Kannada",callback_data = 'kn'),
+        InlineKeyboardButton("Kazakh", callback_data='kk')
+	 ],
+        [   InlineKeyboardButton("Khmer", callback_data='km'),
         InlineKeyboardButton("Kinyarwanda", callback_data='rw'),
         InlineKeyboardButton("Korean",callback_data = 'ko')
         ],
           [   InlineKeyboardButton("Kurdish", callback_data='ku'),
         InlineKeyboardButton("Kyrgyz", callback_data='ky'),
-        InlineKeyboardButton("Lao",callback_data = 'lo')
-        ],
-          [   InlineKeyboardButton("Latin", callback_data='la'),
-        InlineKeyboardButton("Latvian", callback_data='lv'),
+        InlineKeyboardButton("Lao",callback_data = 'lo'),
+        InlineKeyboardButton("Latin", callback_data='la')
+	   ],
+        [InlineKeyboardButton("Latvian", callback_data='lv'),
         InlineKeyboardButton("Lithuanian",callback_data = 'lt')
         ],
           [   InlineKeyboardButton("Luxembourgish", callback_data='lb'),
         InlineKeyboardButton("Macedonian", callback_data='mk')
 	   ],
         [   InlineKeyboardButton("Malagasy",callback_data = 'mg'),
-        InlineKeyboardButton("Malay", callback_data='ms')
+        InlineKeyboardButton("Malay", callback_data='ms'),
+	InlineKeyboardButton("Malayalam", callback_data='ml')
 	 ],
-        [InlineKeyboardButton("Malayalam", callback_data='ml'),
-        InlineKeyboardButton("Maltese",callback_data = 'mt')
-        ],
-        [   InlineKeyboardButton("Maori", callback_data='mi'),
+	[   InlineKeyboardButton("Maltese",callback_data = 'mt'),
+        InlineKeyboardButton("Maori", callback_data='mi'),
         InlineKeyboardButton("Marathi", callback_data='mr'),
         InlineKeyboardButton("Mongolian",callback_data = 'mn')
         ],
