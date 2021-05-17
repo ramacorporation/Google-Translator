@@ -143,16 +143,16 @@ def echo(client, message):
         InlineKeyboardButton("Mongolian",callback_data = 'mn')
         ],
         [   InlineKeyboardButton("Myanmar (burmese)", callback_data='my'),
-        InlineKeyboardButton("Nepali", callback_data='ne'),
-        InlineKeyboardButton("Norwegian",callback_data = 'no')
-	 ],
-       [  InlineKeyboardButton("Nyanja (Chichewa)",callback_data = 'ny'),
-        InlineKeyboardButton("Odia (Oriya)",callback_data = 'or')
+        InlineKeyboardButton("Nepali", callback_data='ne')
+        ],
+      [  InlineKeyboardButton("Norwegian",callback_data = 'no'),
+       InlineKeyboardButton("Nyanja (Chichewa)",callback_data = 'ny')
+       ],
+       [ InlineKeyboardButton("Odia (Oriya)",callback_data = 'or'),
+	InlineKeyboardButton("Pashto", callback_data='ps'),
+	InlineKeyboardButton("Persian", callback_data='fa')
 	],
-	
-        [  InlineKeyboardButton("Pashto", callback_data='ps'),
-        InlineKeyboardButton("Persian", callback_data='fa'),
-        InlineKeyboardButton("Polish",callback_data = 'pl')
+        [InlineKeyboardButton("Polish",callback_data = 'pl')
         ],
         [   InlineKeyboardButton("Portuguese  (Portugal, Brazil)", callback_data='pt'),
         InlineKeyboardButton("Punjabi", callback_data='pa')
