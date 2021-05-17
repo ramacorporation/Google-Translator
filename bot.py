@@ -182,9 +182,9 @@ def echo(client, message):
         InlineKeyboardButton("Tatar", callback_data='tt'),
         InlineKeyboardButton("Telugu",callback_data = 'te')
         ],
-        [   InlineKeyboardButton("Thai", callback_data='th'),
-        InlineKeyboardButton("Turkish", callback_data='tr'),
-        InlineKeyboardButton("Turkmen", callback_data='tk'),
+        [   InlineKeyboardButton("Thai", callback_data="th"),
+        InlineKeyboardButton("Turkish", callback_data="tr"),
+        InlineKeyboardButton("Turkmen", callback_data="tk"),
         InlineKeyboardButton("Ukrainian",callback_data ="uk")
         ],
         [   InlineKeyboardButton("Urdu", callback_data="ur"),
