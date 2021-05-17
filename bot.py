@@ -164,24 +164,7 @@ def echo(client, message):
          InlineKeyboardButton("Serbian", callback_data='sr'),
         InlineKeyboardButton("Sesotho", callback_data='st')
         ],
-	[  InlineKeyboardButton("Shona",callback_data = 'sn'),
-       InlineKeyboardButton("Sindhi", callback_data='sd'),
-        InlineKeyboardButton("Sinhala", callback_data='si'),
-       InlineKeyboardButton("Slovak",callback_data = 'sk')
-       ],
-        [ InlineKeyboardButton("Slovenian", callback_data='sl'),
-        InlineKeyboardButton("Somali", callback_data='so'),
-        InlineKeyboardButton("Spanish",callback_data = 'es')
-        ],
-        [   InlineKeyboardButton("Sundanese", callback_data='su'),
-        InlineKeyboardButton("Swahili", callback_data='sw'),
-        InlineKeyboardButton("Swedish",callback_data = 'sv')
-        ],
-        [   InlineKeyboardButton("Tajik", callback_data='tg'),
-        InlineKeyboardButton("Tamil", callback_data='ta'),
-        InlineKeyboardButton("Tatar", callback_data='tt'),
-        InlineKeyboardButton("Telugu",callback_data = 'te')
-        ],
+	
         [   InlineKeyboardButton("Thai", callback_data="th"),
         InlineKeyboardButton("Turkish", callback_data="tr"),
         InlineKeyboardButton("Turkmen", callback_data="tk"),
