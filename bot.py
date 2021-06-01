@@ -198,6 +198,17 @@ def echo(client, message):
  
  )
 
+elif update.data == "xhosa":
+
+        await update.message.edit_text(
+
+            text=PREVIOUS_TEXT,
+
+            disable_web_page_preview=True,
+
+            reply_markup=keybord
+
+        )
  
  message.reply_text("Select language 👇",reply_to_message_id = message.message_id, reply_markup = keybord)
     
