@@ -30,6 +30,8 @@ app = Client(
         bot_token=TOKEN,api_hash=API_HASH,
             api_id=APP_ID
     )
+
+PREVIOUS_TEXT = """hi"""
     
 @app.on_message(filters.command(['start']))
 def start(client, message):
@@ -185,7 +187,7 @@ def echo(client, message):
         InlineKeyboardButton("Vietnamese",callback_data = "vi")
         ],
         [   InlineKeyboardButton("Welsh", callback_data="cy"),
-        InlineKeyboardButton("Xhosa", callback_data="xh"),
+        InlineKeyboardButton("Xhosa", callback_data="PREVIOUS_TEXT"),
         InlineKeyboardButton("Yiddish",callback_data = "vi")
         ],
         [   InlineKeyboardButton("Yoruba", callback_data="yo"),
