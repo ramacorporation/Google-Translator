@@ -211,12 +211,6 @@ async def translate_text(bot,update):
   translator = google_translator()
   translated_text = translator.translate(tr_text,lang_tgt=cbdata)
   await update.message.edit(translated_text)
-  	
-async def cb_data(bot, update):
- elif update.data == "previous":
-   await update.message.edit_text(
-      text=PREVIOUS_TEXT,
-      disable_web_page_preview=True,
-      reply_markup=keybord)
+  
 
 app.run()
