@@ -213,7 +213,7 @@ async def translate_text(bot,update):
   await update.message.edit(translated_text)
   	
 async def cb_data(bot, update):
- elif update.data == "xhosa":
+ elif update.data == "previous":
    await update.message.edit_text(
       text=PREVIOUS_TEXT,
       disable_web_page_preview=True,
