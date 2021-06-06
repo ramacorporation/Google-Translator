@@ -35,13 +35,17 @@ PREVIOUS_TEXT = """hi"""
     
 @app.on_message(filters.command(['start']))
 def start(client, message):
-            message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to your desired language__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
+            message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am s Google Translate Bot \n I can translate any language to your desired language__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("CHANNEL" ,url="https://t.me/TG_Free_Bots") ],
                 [   InlineKeyboardButton("All our FREE BOTS" ,url="https://t.me/TG_Free_Bots/3")]
            ]
         ) )
+		
+@app.on_message(filters.command(['donate']))
+def start(client, message):
+            message.reply_text(text =f"We will upadte as soon as possible")
 	
 @app.on_message(filters.text & filters.private )
 def echo(client, message):
