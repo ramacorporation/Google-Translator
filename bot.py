@@ -1,11 +1,22 @@
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 import os
 from pyrogram import Client, filters
 from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
+from pyrogram.types import CallbackQuery
 from google_trans_new import google_translator
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
+
+
+import pyrogram
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
+
 
 TOKEN = os.environ.get("TOKEN", "")
 
