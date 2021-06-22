@@ -1,5 +1,3 @@
-# @mrlokaman ©️
-#lntechnical
 import os
 from pyrogram import Client, filters
 from pyrogram.types import (
@@ -7,6 +5,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 from google_trans_new import google_translator
+from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
 TOKEN = os.environ.get("TOKEN", "")
 
@@ -19,12 +18,31 @@ app = Client(
             api_id=APP_ID
     )
 
-
-@app.on_message(filters.private & filters.command(['start']))
-async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ],               [InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]   ]  ) )
-                  
-
+@app.on_message(filters.command(['start']))
+def start(client, message):
+            message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am s Google Translate Bot \n I can translate any language to your desired language__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("CHANNEL" ,url="https://t.me/TG_Free_Bots") ],
+                [   InlineKeyboardButton("All our FREE BOTS" ,url="https://t.me/TG_Free_Bots/3")]
+           ]
+        ) )
+		
+@app.on_message(filters.command(['donate']))
+def start(client, message):
+            message.reply_text(text =f"We will upadte as soon as possible")
+	
+@app.on_message(filters.text & filters.private )
+def echo(client, message):
+ update_channel = "TG_Free_Bots"
+ user_id = message.from_user.id
+ if update_channel :
+  try:
+   client.get_chat_member(update_channel, user_id)
+  except UserNotParticipant:
+   message.reply_text("**__Join our Bot's Channel to use ME__** ",parse_mode="markdown", reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([ [ InlineKeyboardButton("Join our Bot's channel" ,url="https://t.me/TG_Free_Bots") ]
+   ]))
+   return
 
 
 @app.on_message(filters.private & filters.text  )
