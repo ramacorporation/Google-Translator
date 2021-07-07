@@ -21,9 +21,8 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you desired language__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [  
-																																			[InlineKeyboardButton("Channel", url="https://t.me/TG_Free_Bots") ]   ] ]   )
-                  
+ await message.reply_text(text =f"Hello {message.from_user.first_name } \n\n I am simple Google Translater Bot \n I can translate any language to you desired language",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [  
+                                   InlineKeyboardButton("Channel", url="https:t.me/TG_Free_Bots") ]   ]   ) )                 
 
 
 
