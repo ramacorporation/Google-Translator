@@ -7,13 +7,13 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 from googletrans import Translator
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "5134475324:AAEzAM1SIbPVIR9DG7VZOKbSUk9JFVKyiB0")
 
-API_ID = int(os.environ.get("API_ID", 12345))
+API_ID = int(os.environ.get("API_ID", 12243763))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "dd0d277f1d1c6d5b8ff5f433b833b654")
 app = Client(
-        "ggt",
+        "calculatorrama",
         bot_token=TOKEN,api_id=API_ID,
             api_hash=API_HASH
     )
